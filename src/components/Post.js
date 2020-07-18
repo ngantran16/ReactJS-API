@@ -14,7 +14,7 @@ class Post extends Component{
                 .then(response => {
                     response.json().then((data) =>  {
                 this.updateUI(data);
-                        });
+                });
         });
     }
     updateUI(data){
